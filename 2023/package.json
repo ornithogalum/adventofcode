@@ -6,9 +6,8 @@
   "type": "module",
   "scripts": {
     "build": "tsc",
-    "start": "node --loader ./loader.js ./dist/day1/day1.1.js",
-    "test": "jest --watchAll",
-    "ci": "jest --ci"
+    "test": "jest --ci",
+    "test:watch": "jest --watchAll"
   },
   "author": "Tobias Kihlström",
   "license": "ISC",
